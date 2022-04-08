@@ -1,0 +1,7 @@
+Ctrl 17
+↑　38
+↓　40
+
+Tabs APIはContent-Scriptから使えない。
+非同期なので厳密には動作中にmutexが解除されるが、効果はある。(保険)
+現象から、非公式AppはデベロッパーツールでServiceWorkerを監視しないと無効にされる。

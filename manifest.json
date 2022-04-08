@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "K Tool",
+  "version": "0.1",
+  "author": "K.E.Y.",
+  "description": "K Tool",
+  "action": {
+    "default_icon": {
+      "16": "image/icon16_k.png"
+    },
+    "default_title": "K Tool",
+    "default_popup": "html/popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "homepage_url": "https://github.com/github895439?tab=repositories",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "update_url": "https://github.com/github895439?tab=repositories"
+}
