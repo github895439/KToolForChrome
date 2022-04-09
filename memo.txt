@@ -4,4 +4,4 @@ Ctrl 17
 
 Tabs APIはContent-Scriptから使えない。
 非同期なので厳密には動作中にmutexが解除されるが、効果はある。(保険)
-現象から、非公式AppはデベロッパーツールでServiceWorkerを監視しないと無効にされる。
+現象から、非公式AppはデベロッパーツールでService Workerを監視しないと無効にされる。
