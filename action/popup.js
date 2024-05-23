@@ -3,6 +3,11 @@ function initialize()
     eleCheckbox1 = document.getElementById("checkbox1");
     eleText = document.getElementById("text1");
     eleButton = document.getElementById("button1");
+    eleButton.addEventListener("blur",
+        () => {
+            eleText.value = "";
+        }
+    );
     chrome.storage.local.get(null,
         (result) =>
         {
